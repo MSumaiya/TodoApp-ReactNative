@@ -19,7 +19,7 @@ export default function App() {
     });
   }
 
-  const submitHandler = (text, setText) =>{
+  const submitHandler = (text) =>{
     if(text.length > 3){
 
       setTodos((prevTodos)=>{
