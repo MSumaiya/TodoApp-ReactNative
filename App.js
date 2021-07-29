@@ -8,8 +8,8 @@ import AddTodo from './components/addTodo';
 export default function App() {
   //console.log('setText: ', setText);
   const [todos, setTodos] = useState([
-    {text: 'buy coffee', key:'1'},
-    {text: 'create an app', key:'2'},
+    {text: 'take tea', key:'1'},
+    {text: 'create todo app', key:'2'},
     {text: 'study', key:'3'}
   ]);
   //const [text, setText] = useState('');
